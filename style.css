@@ -1,6 +1,6 @@
-body{
-    font-family: Raleway
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Raleway:wght@400;500&display=swap');
+
+/* 
 h1 {
     font-family: Playfair Display;
     font-weight: 400;
@@ -9,4 +9,243 @@ h1 {
 
 footer{
     font-family: 'Playfair Display';
+} */
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 1.42857143;
+    color: #333;
+    font-size: 14px;
+    background-color: #fff;
+    display: block;
+    /* margin: 0; */
 }
+
+.line{
+    width: 40px;
+    height: 1px;
+    background-color: #252525;
+    margin: 0px auto;
+}
+
+.logo-image{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.logo-section{
+    text-align: center;
+    margin-top: 85px;
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 26px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px 0;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #252525;
+    letter-spacing: 3px;
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 100px;
+
+}
+
+.p-text,
+.p-intro{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 50px;
+    max-width: 770px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.div-introduction-box{
+    position: relative;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.div-introduction-box section{
+    margin-bottom: 20px;
+}
+
+.portfolio-home{
+    color: #252525;
+    letter-spacing: 3px;
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.section-nav{
+    display: block
+}
+/* .nav-list-menu{
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none; 
+}*/
+
+.nav-menu{
+    display: inline-block;
+    margin-top: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.nav-link{
+    padding: 10px 18px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: block;
+    font-size: 12px;
+    padding: 13px 38px;
+    position: relative;
+    float: left;
+}
+
+.nav-line{
+    display: block;
+    content: '';
+    height: 2px;
+    background-color: #dfdfdf;
+    width: 37px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* .page-div,
+.portfolio{
+    width: 750px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-div{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block;
+}
+
+.portfolio-images{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    margin-top: 30px;
+    width: 33.33333333%;
+    margin-bottom: 100px;
+}
+
+.image-item{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    margin: 5px 20px 10px 0;
+} */
+
+.page-div{
+    position: relative;
+    max-width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-images{
+    max-width: 1215px;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.image-div{
+    margin-top: 30px;
+    max-width: 370px;
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.image-item{
+    width: 100%;
+    margin: 5px 20px 10px 0px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+footer{
+    border-bottom: 5px solid #000;
+    margin-top: 85px;
+}
+
+.footer-line{
+    max-width: 1170px;
+    height: 1px;
+    background-color: #252525;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft{
+    float: left;
+    margin: 5px 20px 10px 0;
+}
+
+.copyrights{
+    text-align: center;
+    letter-spacing: 1px;
+    /* padding: 25px 0; */
+    color: #7a7a7a;
+    font-family: 'Playfair Display';
+    /* margin-top: 34px; */
+}
+
