@@ -67,7 +67,8 @@ h2{
 }
 
 .p-text,
-.p-intro{
+.p-intro,
+p{
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
@@ -224,6 +225,7 @@ a{
 footer{
     border-bottom: 5px solid #000;
     margin-top: 85px;
+    position: relative;
 }
 
 .footer-line{
@@ -233,6 +235,11 @@ footer{
     margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.div-footer{
+    position:relative;
+    margin-top: 500px;
 }
 
 .alignleft{
@@ -248,4 +255,48 @@ footer{
     font-family: 'Playfair Display';
     /* margin-top: 34px; */
 }
+.div-portfolio,
+.div-images-studio{
+    margin-bottom: 35px;
+    height: 612.188px;
+    line-height: 20px;
+    min-height: 374px;
+    padding: 25px;
+    position: relative;
+    text-size-adjust: 100%;
+    width: 370px;
+    vertical-align: top;
+    text-align: left;
+    /* display: block;
+    width: 1200px;
+    margin-left: 33.5px;
+    margin-right: 33.5px;
+    padding-left: 15px;
+    padding-right: 15px; */
+}
 
+.studio-info{
+    float: left;
+    display: block;
+    position: relative;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    border-width: 1px;  
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+}
+
+h3{
+    border-bottom: 1px solid #252525;
+    font-size: 12px;
+    color: #252525;
+    letter-spacing: 2px;
+    padding-bottom: 7px;
+    margin: 5px 0 0 0;
+    text-align: left;
+}
